@@ -175,6 +175,17 @@ ros2_project/
 │   └── px4_msgs/               # PX4 message definitions
 └── launch/
     └── drone.launch.py        # Launches drone + control nodes
+└── ros2_project/
+    └── yolo.py                #bounding box and labelling the stones
+    └── coordinates.py          #saves coordinates of the stones in csv file along with their labels
+    └── camera_info_publisher.py #publishes synced image data
+    └── control.py
+    └── velocity_control.py
+    └── processes.py          #launches drone and terminal for keyboard control
+    └── odometry_tf_broadcaster.py
+    └── best.pt                  #yolo model weight
+
+
 ```
 
 ---
