@@ -1,5 +1,4 @@
-Here's a complete `README.md` file based on your instructions, formatted cleanly for your `ros2_project` and PX4-based YOLO pipeline:
-
+RAS598_final_project
 ---
 
 ````markdown
